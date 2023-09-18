@@ -1,6 +1,27 @@
 /* GENERAL  */
 
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Borel&family=Faster+One&family=Kanit&family=Poppins:wght@300;400;500&family=Press+Start+2P&family=Raleway:wght@600&family=Rubik+Iso&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
+
+a, .btn {
+  transition:  300ms ease;
 }
