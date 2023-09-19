@@ -9,7 +9,7 @@
 </head>
 <body>
   <nav id="desktop-nav">
-    <div class="logo">Marcelo Amaral</div>
+    <div><h1 class="marcelo">Marcelo<span class="amaral">Amaral</span></h1></div>
     <div>
       <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -35,6 +35,38 @@
     </div>
   </div>
   </nav>
+  <section id="profile">
+    <div class="selection__pic-container">
+        <img src="./assets/avatar.png" alt="Marcelo Profile Picture">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Marcelo Amaral</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2"
+        onclick="window.open('./assets/resume-marcelo.pdf')">
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+      </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedinwhite.png"
+        alt="My Linkidin profile" class="icon"
+        onclick="location.href=
+        'https://www.linkedin.com/in/marceloamaralalves/'"
+        />
+        <img src="./assets/gitwhite.png"
+        alt="My GitHub profile" class="icon"
+        onclick="location.href=
+        'https://github.com/marcelovsk1'"
+        />
+
+      </div>
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
