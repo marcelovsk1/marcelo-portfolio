@@ -118,7 +118,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0%;
-  background-color: transparent;
+  background-color: rgb(236, 195, 91);
   max-width: 0; /* Altere de 0vh para 0 */
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -129,7 +129,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem; /* Altere de 50rem para 1.5rem para o tamanho da fonte */
-  color: rgb(236, 195, 91);
+  color: black;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -139,7 +139,7 @@ a:hover {
 }
 
 .menu-links.open {
-  max-width: 300px; /* Altere de max-height para max-width */
+  max-width: 300px;
 }
 
 
@@ -194,8 +194,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  gap: 4rem;
+  height: 65vh;
 }
 
 .selection__pic-container{
@@ -237,6 +237,18 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+}
+
+.marcelo-logo{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.amaral-logo{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(236, 195, 91);
 }
 
 /* ICONS */
