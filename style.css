@@ -415,3 +415,26 @@ p {
 .article .icon{
   cursor: default;
 }
+
+/* PROJECTS */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: black;
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: white;
+}
+
+/* CONTACT */
