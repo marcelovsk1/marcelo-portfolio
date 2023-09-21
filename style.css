@@ -335,9 +335,9 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-  width: 300px;
+  width: 320px;
   height: 350px;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .arrow {
@@ -350,13 +350,12 @@ section {
 
   .details-container {
     padding: 1.5rem;
-    flex: 1;
-    background: rgb(28, 28, 28);
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(0, 0, 0);
-    text-align: center;
-    color: rgb(236, 195, 91);
+  flex: 1;
+  background: rgb(28, 28, 28);
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(236, 195, 91);
   }
 
 .section-container {
@@ -399,7 +398,8 @@ p {
 
 .article-container {
   display: flex;
-  text-align: wrap;
+  text-align: initial;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
