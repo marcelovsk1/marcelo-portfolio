@@ -36,7 +36,9 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 18vh;
+
 }
+
 
 .nav-links {
   gap: 2rem;
@@ -52,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: rgb(236, 195, 91);
+  color: rgb(214, 174, 133);
   text-decoration: underline;
   text-underline-offset: 1rem;
   /* text-decoration-color: rgb(85, 85, 85); */
@@ -67,7 +69,7 @@ a:hover {
 .amaral {
   font-size: 2rem;
   font-weight: 500;
-  color: rgb(236, 195, 91);
+  color: rgb(214, 174, 133);
 }
 
 .logo:hover {
@@ -118,20 +120,30 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0%;
-  background-color: rgb(236, 195, 91);
+  background-color: rgb(214, 174, 133);
   max-width: 0; /* Altere de 0vh para 0 */
   overflow: hidden;
   transition: all 0.3s ease-in-out;
 }
 
-.menu-links a {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.5rem; /* Altere de 50rem para 1.5rem para o tamanho da fonte */
-  color: black;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
+.menu-links.open {
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  position: fixed; /* Fixed positioning to cover the entire viewport */
+  gap: 2rem;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(214, 174, 133); /* Add a semi-transparent background overlay */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Adjust other styles as needed when the menu is open */
+.menu-links.open a {
+  /* Your styles for menu links when the menu is open */
 }
 
 .menu-links li {
@@ -222,7 +234,7 @@ section {
 
 .section__text__p2 {
   font-size: 2rem;
-  color: rgb(236, 195, 91);
+  color: rgb(214, 174, 133);
   margin-bottom: 1rem;
 }
 
@@ -248,7 +260,7 @@ section {
 .amaral-logo{
   font-size: 1.5rem;
   font-weight: 500;
-  color: rgb(236, 195, 91);
+  color: rgb(214, 174, 133);
 }
 
 /* ICONS */
@@ -277,7 +289,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(236, 195, 91) solid;
+  border: rgb(214, 174, 133) solid;
 }
 
 .btn-color-1:hover,
@@ -287,7 +299,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(236, 195, 91) solid;
+  background: rgb(214, 174, 133) solid;
   color: white;
 }
 
@@ -300,11 +312,11 @@ section {
 }
 
 .btn-color-2{
-  background: rgb(236, 195, 91);
+  background: rgb(214, 174, 133);
 }
 
 .btn-color-2:hover {
-  background: rgb(211, 174, 81);
+  background: rgb(180, 146, 111)
 }
 
 .btn-container {
@@ -338,6 +350,7 @@ section {
   width: 320px;
   height: 350px;
   margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .arrow {
@@ -349,13 +362,13 @@ section {
 }
 
   .details-container {
-    padding: 1.5rem;
+  padding: 1.5rem;
   flex: 1;
   background: rgb(28, 28, 28);
   border-radius: 2rem;
   border: 0.1rem solid rgb(0, 0, 0);
   text-align: center;
-  color: rgb(236, 195, 91);
+  color: rgb(214, 174, 133);
   }
 
 .section-container {
@@ -374,7 +387,7 @@ p {
 }
 
 .me {
-  color: rgb(236, 195, 91);
+  color: rgb(214, 174, 133);
 }
 
 /* EXPERIENCE */
@@ -383,8 +396,12 @@ p {
   position: relative;
 }
 
+#exp {
+  color: rgb(214, 174, 133);
+}
+
 .experience-sub-title {
-  color: rgb(236, 195, 91);
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 1.75;
   margin-bottom: 2rem;
@@ -422,6 +439,10 @@ p {
   position: relative;
 }
 
+#project {
+  color: rgb(214, 174, 133);
+}
+
 .color-container {
   border-color: black;
 }
@@ -444,6 +465,10 @@ p {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+}
+
+.me {
+  color: rgb(214, 174, 133);
 }
 
 .contact-info-upper-container {
@@ -486,4 +511,5 @@ footer {
 
 footer p{
   text-align: center;
+  color: rgb(214, 174, 133);
 }
