@@ -71,6 +71,10 @@
     margin-bottom: 2rem;
   }
 
+  .btn {
+    color: white;
+  }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
