@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(162, 160, 160);
 }
 
 html {
@@ -48,13 +48,18 @@ nav {
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
   text-decoration: none;
-  text-decoration-color: white;
+  /* text-decoration-color: white; */
+  text-decoration-line: none;
 }
 
 a:hover {
-  color: rgb(214, 174, 133);
+  background-image: linear-gradient(to right, #FF3B30, #FF9500, #FFCC00, #34AADC, #007AFF, #9763e4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 1rem;
   /* text-decoration-color: rgb(85, 85, 85); */
@@ -63,13 +68,13 @@ a:hover {
 .marcelo {
   font-size: 2rem;
   font-weight: 500;
-  color: white;
+  color: rgb(3, 3, 3);
 }
 
 .amaral {
   font-size: 2rem;
   font-weight: 500;
-  color: rgb(214, 174, 133);
+  color: rgb(123, 61, 136);
 }
 
 .logo:hover {
@@ -234,8 +239,13 @@ section {
 
 .section__text__p2 {
   font-size: 2rem;
-  color: rgb(214, 174, 133);
+  /* color: rgb(214, 174, 133); */
   margin-bottom: 1rem;
+  background-image: linear-gradient(to right, #FF3B30, #FF9500, #FFCC00, #34AADC, #007AFF, #9763e4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
 }
 
 .title {
