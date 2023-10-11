@@ -75,6 +75,10 @@
     color: white;
   }
 
+  .btn-color-1 {
+    color: #007AFF;
+  }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
