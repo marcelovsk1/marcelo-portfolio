@@ -295,11 +295,13 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
 
 .btn-color-1,
 .btn-color-2 {
   border: rgb(190, 190, 190) solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
 
 .btn-color-1:hover,
@@ -378,9 +380,10 @@ section {
   flex: 1;
   background: rgb(236, 236, 236);
   border-radius: 2rem;
-  border: 0.1rem solid rgb(255, 255, 255);
+  /* border: 0.1rem solid rgb(255, 255, 255); */
   text-align: center;
-  color: rgb(214, 174, 133);
+  color:  #007AFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
 .section-container {
@@ -409,11 +412,11 @@ p {
 }
 
 #exp {
-  color: rgb(214, 174, 133);
+  color:  #007AFF;
 }
 
 .experience-sub-title {
-  color: rgb(255, 255, 255);
+  color: rgb(2, 2, 2);
   font-weight: 600;
   font-size: 1.75;
   margin-bottom: 2rem;
@@ -452,7 +455,7 @@ p {
 }
 
 #project {
-  color: rgb(214, 174, 133);
+  color: #007AFF;
 }
 
 .color-container {
@@ -467,7 +470,7 @@ p {
 
 .project-title {
   margin: 1rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* CONTACT */
@@ -480,15 +483,14 @@ p {
 }
 
 .me {
-  color: rgb(214, 174, 133);
+  color:  #007AFF;
 }
 
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: black solid;
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(236, 236, 236);
   margin: 2rem auto;
   padding: 0.5rem;
 }
