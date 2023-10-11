@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(162, 160, 160);
+  background-color: rgb(249, 249, 249);
 }
 
 html {
@@ -60,7 +60,7 @@ a:hover {
   background-clip: text;
   color: transparent;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 1rem;
   /* text-decoration-color: rgb(85, 85, 85); */
 }
@@ -74,7 +74,7 @@ a:hover {
 .amaral {
   font-size: 2rem;
   font-weight: 500;
-  color: rgb(123, 61, 136);
+  color: #007AFF;
 }
 
 .logo:hover {
@@ -117,7 +117,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(6, 6, 6);
   transition: all 0.3 ease-in-out;
 }
 
@@ -125,7 +125,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0%;
-  background-color: rgb(214, 174, 133);
+  background-color: #007AFF;
   max-width: 0; /* Altere de 0vh para 0 */
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -142,7 +142,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(214, 174, 133); /* Add a semi-transparent background overlay */
+  background-color: #007AFF; /* Add a semi-transparent background overlay */
   z-index: 1000; /* Ensure it's above other content */
 }
 
@@ -234,7 +234,7 @@ section {
 .section__text__p1 {
   text-align: center;
   font-size: 2rem;
-  color: lightgray;
+  color: rgb(58, 58, 58);
 }
 
 .section__text__p2 {
@@ -251,7 +251,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  color: white;
+  color: rgb(2, 2, 2);
 }
 
 #socials-container {
@@ -264,13 +264,13 @@ section {
 .marcelo-logo{
   font-size: 1.5rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: rgb(1, 1, 1);
 }
 
 .amaral-logo{
   font-size: 1.5rem;
   font-weight: 500;
-  color: rgb(214, 174, 133);
+  color: #007AFF;
 }
 
 /* ICONS */
@@ -278,7 +278,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
-  color: white;
+  color: rgb(239, 25, 25);
 }
 
 /* BUTTONS */
@@ -299,7 +299,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(214, 174, 133) solid;
+  border: rgb(190, 190, 190) solid;
 }
 
 .btn-color-1:hover,
@@ -309,24 +309,26 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(214, 174, 133) solid;
-  color: white;
+  background: #007AFF;
+  color: #ffffff;
 }
 
 .btn-color-1:hover {
-  background: rgb(80, 80, 80);
+  background: rgb(224, 224, 224);
 }
 
 .btn-color-1{
   background: transparent;
+  color: #007AFF;
 }
 
 .btn-color-2{
-  background: rgb(214, 174, 133);
+  background: #007AFF;
+  color: white;
 }
 
 .btn-color-2:hover {
-  background: rgb(180, 146, 111)
+  background: #0060c6;
 }
 
 .btn-container {
@@ -374,9 +376,9 @@ section {
   .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: rgb(28, 28, 28);
+  background: rgb(236, 236, 236);
   border-radius: 2rem;
-  border: 0.1rem solid rgb(0, 0, 0);
+  border: 0.1rem solid rgb(255, 255, 255);
   text-align: center;
   color: rgb(214, 174, 133);
   }
@@ -393,7 +395,7 @@ section {
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 .me {
