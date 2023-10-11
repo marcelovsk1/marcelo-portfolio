@@ -300,7 +300,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(190, 190, 190) solid;
+  border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
 
@@ -316,11 +316,11 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(224, 224, 224);
+  background: rgb(220, 220, 220);
 }
 
 .btn-color-1{
-  background: transparent;
+  background: rgb(240, 240, 240);
   color: #007AFF;
 }
 
