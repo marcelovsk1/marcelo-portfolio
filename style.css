@@ -422,6 +422,13 @@ p {
   margin-bottom: 2rem;
 }
 
+.experience-sub-title2 {
+  color: rgb(2, 2, 2);
+  font-weight: 600;
+  font-size: 1.25;
+  margin-bottom: 2rem;
+}
+
 .experience-details-container {
   display: flex;
   justify-content: center;
