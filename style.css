@@ -450,6 +450,15 @@ p {
   justify-content: space-around;
 }
 
+.article-container-projects {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
 .article {
   display: flex;
   width: 10rem;
