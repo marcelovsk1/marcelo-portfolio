@@ -24,6 +24,7 @@ p {
   color: rgb(27, 27, 27);
   margin-bottom: 20px;
   text-align: justify;
+  padding: 5px;
 }
 
 /* TRANSITION */
@@ -476,6 +477,7 @@ p {
   position: relative;
 }
 
+
 #project {
   color: #007AFF;
 }
@@ -501,6 +503,16 @@ p {
   margin: 1rem;
   color: rgb(0, 0, 0);
 }
+/*
+.media-scroller {
+  display: flex;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  gap: 5rem;
+
+  overflow-x: auto;
+  overscroll-behavior: ;
+} */
 
 .project-title-2 {
   margin: 1rem;
