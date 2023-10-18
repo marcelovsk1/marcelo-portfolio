@@ -527,6 +527,12 @@ p {
   margin-top: -10px;
 }
 
+.section__text__p12 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(58, 58, 58);
+}
+
 /* CONTACT */
 
 #contact {
