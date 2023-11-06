@@ -242,6 +242,7 @@ section {
   text-align: center;
   font-size: 2rem;
   color: rgb(58, 58, 58);
+  /* margin-top: 50px; */
 }
 
 .section__text__p2 {
@@ -449,6 +450,7 @@ p {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  /* margin-bottom: 90px; */
 }
 
 .article-container-projects {
