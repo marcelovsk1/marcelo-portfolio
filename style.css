@@ -532,7 +532,15 @@ p {
 .section__text__p12 {
   text-align: center;
   font-size: 2rem;
-  color: rgb(58, 58, 58);
+  color: rgb(34, 33, 33);
+  margin-top: 100px;
+}
+
+.section__text__p13 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(34, 33, 33);
+  margin-top: 250px;
 }
 
 /* CONTACT */
